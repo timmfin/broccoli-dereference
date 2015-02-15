@@ -1,0 +1,29 @@
+{
+  "name": "broccoli-dereference",
+  "description": "Turn symlinks into files (dereference them).",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bradley Ayers",
+    "email": "bradley.ayers@gmail.com"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bradleyayers/broccoli-dereference"
+  },
+  "keywords": [
+    "broccoli-plugin",
+    "symlink"
+  ],
+  "dependencies": {
+    "broccoli-writer": "^0.1.1",
+    "copy-dereference": "^1.0.0",
+    "rimraf": "^2.2.8"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/bradleyayers/broccoli-dereference/issues"
+  },
+  "homepage": "https://github.com/bradleyayers/broccoli-dereference"
+}
