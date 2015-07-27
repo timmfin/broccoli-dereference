@@ -16,8 +16,8 @@ function Dereference(inputNode, options) {
   this.options = options;
 }
 
-Dereference.prototype.constructor = Dereference;
 Dereference.prototype = Object.create(Plugin.prototype);
+Dereference.prototype.constructor = Dereference;
 
 Dereference.prototype.build = function () {
   // copyDereferenceSync wants to create the directory.
